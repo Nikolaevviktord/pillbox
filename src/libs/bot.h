@@ -1,3 +1,5 @@
+#include "/home/projects/pillbox/src/libs/time.h"
+
 uint8_t error = 42;
 
 String hours = "0 \t 1 \t 2 \t 3 \n 4 \t 5 \t 6 \t 7 \n 8 \t 9 \t 10 \t 11 \n 12 \t 13 \t 14 \t 15 \n 16 \t 17 \t 18 \t 19 \n 20 \t 21 \t 22 \t 23";
@@ -46,5 +48,5 @@ void bot_start(String &userID) {
   bot.sendMessage(text, userID);
 }
 
-void bot_add_time(String &userID) {
-  
+void bot_add_time(String &userID, Time* times) {
+	  
