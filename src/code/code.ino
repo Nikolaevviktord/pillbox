@@ -8,9 +8,9 @@ GyverTM1637 disp(disp_info._clk, disp_info._dio);
 
 time_struct _times[50];
 
-String token = "7260662081:AAGGjrSlQdg5O2ZKy4dhQUeKPbHhIiQA34g";
+String token = ""; // insert your token here
 
-String user_id = "1026329319";
+String user_id = ""; // insert your user id here
 
 FastBot bot(token);
 
